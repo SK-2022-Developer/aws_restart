@@ -10,7 +10,7 @@ fileName=input("Enter the file name to open: ")
 try:
     file1=open(fileName,"r")
 except FileNotFoundError:
-    print("The file name entered is incorrect, try again \n")
+    print("The file name entered is incorrect, try again")
     fileName=input("Re-enter the file name to open: ")
     file1=open(fileName,"r")
 
